@@ -20,6 +20,6 @@ while(x<10):
         print(msg)
 
 #q4
-info=collection.find({"Marks":{"$gt":80}}) # $gt -> gretaer then
+info=collection.find({"Marks":{"$gt":80}}) 
 for i in info:
     print(i)
